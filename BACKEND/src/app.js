@@ -4,8 +4,9 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 
 app.use(cors({
-        origin: "https://frontend-interviewiq-ai.onrender.com",
-        credentials: true
+    origin: "https://frontend-interviewiq-ai.onrender.com",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
 }));
 
 app.use(express.json());
