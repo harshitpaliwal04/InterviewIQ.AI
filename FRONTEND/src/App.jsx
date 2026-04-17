@@ -9,7 +9,7 @@ import Report from './PAGES/InterviewReport.jsx'
 import { ProtectedRoutes, AuthRoute } from "./PAGES/ProtectedRoutes.jsx"
 import { useEffect } from 'react'
 
-export const ServerUrl = ""
+export const ServerUrl = "https://interviewiq-ai-cnqv.onrender.com"
 
 function App() {
   useEffect(() => {
