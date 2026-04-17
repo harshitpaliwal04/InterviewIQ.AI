@@ -2,7 +2,7 @@
 
 ## 🚀 What is InterviewIQ.Ai?
 
-InterviewIQ.Ai is a production-grade SaaS platform that helps developers and job seekers prepare smarter for interviews. Users upload their resume (PDF), and the AI generates role-specific interview questions across technical and HR domains. After each session, users receive detailed intelligent feedback to track their performance and improve over time.
+InterviewIQ.Ai is a SaaS platform that helps developers and job seekers prepare smarter for interviews. Users upload their resume (PDF), and the AI generates role-specific interview questions across technical and HR domains. After each session, users receive detailed intelligent feedback to track their performance and improve over time.
 
 The platform runs on a **credit-based access system** — users get free credits on signup and can purchase more via **Razorpay** when they run out.
 
