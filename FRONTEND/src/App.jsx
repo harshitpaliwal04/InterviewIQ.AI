@@ -9,8 +9,7 @@ import Report from './PAGES/InterviewReport.jsx'
 import { ProtectedRoutes, AuthRoute } from "./PAGES/ProtectedRoutes.jsx"
 import { useEffect } from 'react'
 
-export const ServerUrl = meta.env.VITE_SERVER_URL || "https://interviewiq-ai-ymni.onrender.com"
-
+export const ServerUrl = "https://interviewiq-ai-ymni.onrender.com"
 
 function App() {
   useEffect(() => {
