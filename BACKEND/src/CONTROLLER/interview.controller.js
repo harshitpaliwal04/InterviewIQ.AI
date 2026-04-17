@@ -153,7 +153,7 @@ const GenerateQuestion = async (req, res) => {
                 }
 
                 // ✅ Check if user exists
-                const user = await UserModel.findById(req.user);
+                const user = await UserModel.findById(req.user.id);
                 if (!user) {
                         return res.status(404).json({ message: "User not found" });
                 }
